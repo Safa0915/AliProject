@@ -1,4 +1,3 @@
-public git add .
- ExpenseManagerApp {
+public class ExpenseManagerApp {
     
 }
