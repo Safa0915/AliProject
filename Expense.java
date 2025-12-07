@@ -4,7 +4,6 @@ public class Expense {
     private String title;
     private double amount;
 
-    //Constructor
     public Expense(String title, double amount) {
         this.title = title;
         this.amount = amount;
@@ -21,12 +20,12 @@ public class Expense {
     }
 
     //Sets title
-    public void setTitle() {
+    public void setTitle(String title) {
         this.title = title;
     }
 
     //Sets amount
-    public void setAmount() {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 
