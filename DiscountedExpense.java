@@ -19,7 +19,8 @@ public class DiscountedExpense extends Expense {
         System.out.println("Title: " + getTitle());
         System.out.println("Original Amount: £" + getAmount());
         System.out.println("Discount: %" + discountPercent);
-        System.out.printf("Final Amount: £%.2f%n", getFinalAmount());
+        System.out.printf("Final Amount: £%.2f", getFinalAmount());
+        System.out.println();
         System.out.println("Type: Discounted");
         System.out.println();
     }
