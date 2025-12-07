@@ -17,7 +17,8 @@ public class DiscountedExpense extends Expense {
     //Prints the information in a neat way
     public void showInfo() {
         System.out.println("Title: " + getTitle());
-        System.out.println("Original Amount: £" + getAmount());
+        System.out.printf("Original Amount: £%.2f",  getAmount());
+        System.err.println();
         System.out.println("Discount: %" + discountPercent);
         System.out.printf("Final Amount: £%.2f", getFinalAmount());
         System.out.println();

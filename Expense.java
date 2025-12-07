@@ -37,8 +37,10 @@ public class Expense {
     //Prints the information in a neat way
     public void showInfo() {
         System.out.println("Title: " + title);
-        System.out.println("Original Amount: £" + amount);
-        System.out.println("Final Amount: £" + getFinalAmount());
+        System.out.printf("Original Amount: £%.2f",  amount);
+        System.err.println();
+        System.out.printf("Final Amount: £%.2f", getFinalAmount());
+        System.err.println();
         System.out.println("Type: Normal");
         System.out.println();
     }
